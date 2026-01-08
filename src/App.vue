@@ -11,6 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <HelloWorld msg="You did it!" />
 
       <nav>
+        <PrimeButton label="Verify" class="me-8" />
         <RouterLink to="/">{{ $t('labels.account') }}</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>

@@ -11,6 +11,8 @@ import i18n from './locales/i18n'
 import PrimeVue from 'primevue/config'
 import primevueConfig from './lib/primevue'
 
+import Button from 'primevue/button'
+
 const app = createApp(App)
 
 app.use(createPinia())
@@ -19,5 +21,7 @@ app.use(router)
 app.use(i18n)
 
 app.use(PrimeVue, primevueConfig)
+
+app.component('PrimeButton', Button)
 
 app.mount('#app')

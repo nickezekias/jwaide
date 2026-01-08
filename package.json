@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@primeuix/themes": "^2.0.2",
+    "@primevue/forms": "^4.5.4",
     "@tailwindcss/vite": "^4.1.18",
     "@vee-validate/zod": "^4.15.1",
     "firebase": "^12.7.0",
