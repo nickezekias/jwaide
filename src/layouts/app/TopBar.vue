@@ -57,7 +57,7 @@ import PrimeToolbar from 'primevue/toolbar'
                 />
               </svg>
 
-              <span>{{ $t('labels.catalog') }}</span>
+              <span>{{ $t('labels.inventory') }}</span>
             </div>
           </PrimeButton>
         </router-link>
